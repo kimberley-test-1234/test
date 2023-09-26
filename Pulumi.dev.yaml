@@ -1,7 +1,3 @@
 config:
-  azure-native:location: WestUS
-  pulumi:template: serverless-azure-go
-  serverless-azure-go:appPath: ./app
-  serverless-azure-go:errorDocument: error.html
-  serverless-azure-go:indexDocument: index.html
-  serverless-azure-go:sitePath: ./www
+  azure-native:location: WestUS2
+  pulumi:template: azure-typescript
